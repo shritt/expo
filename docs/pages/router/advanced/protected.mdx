@@ -159,7 +159,7 @@ export default function TabLayout() {
 
       <Tabs.Protected guard={!isLoggedIn}>
         <Tabs.Screen name="login" options={{ tabBarLabel: "Login" }} />
-      </Tabs.Screen>
+      </Tabs.Protected>
     </Tabs>
   );
 }
